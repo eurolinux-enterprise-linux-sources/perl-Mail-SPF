@@ -1,6 +1,6 @@
 Name:           perl-Mail-SPF
 Version:        2.8.0
-Release:        3%{?dist}
+Release:        4%{?dist}
 Summary:        Object-oriented implementation of Sender Policy Framework
 License:        BSD
 Group:          Development/Libraries
@@ -69,6 +69,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.8.0-4
+- Mass rebuild 2013-12-27
+
 * Fri Jun 28 2013 Paul Howarth <paul@city-fan.org> - 2.8.0-3
 - Fix broken POD (CPAN RT#86060)
 - Work around test suite failures with Net::DNS ≥ 0.68 (CPAN RT#78214)
